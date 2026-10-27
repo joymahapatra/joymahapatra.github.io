@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home — Joy Mahapatra's personal academic website.">
+    <title>Home | Joy Mahapatra</title>
+    <link rel="icon" href="assets/images/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome 7.3.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <!-- Academicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+        referrerpolicy="no-referrer" />
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <nav aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Joy Mahapatra home">Joy Mahapatra</a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="news.html">News</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <section class="hero" aria-labelledby="intro-heading">
+            <img class="profile-image" src="assets/images/profile_pic.png" alt="Portrait of Joy Mahapatra">
+            <div class="links social-links">
+                <a class="social-icon" href="mailto:joymahapatra90@gmail.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Email">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+
+                <a class="social-icon" href="https://github.com/joymahapatra" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a class="social-icon" href="https://scholar.google.com/citations?user=KHOwfSoAAAAJ" target="_blank" rel="noopener noreferrer"
+                    aria-label="Google Scholar">
+                    <i class="fa-brands fa-google-scholar" aria-hidden="true"></i>
+                </a>
+
+                <a class="social-icon" href="https://dblp.org/pid/188/9220" target="_blank" rel="noopener noreferrer"
+                    aria-label="DBLP">
+                    <i class="ai ai-dblp" aria-hidden="true"></i>
+                </a>
+            </div>
+            <h1 id="intro-heading">Hello, I'm Joy Mahapatra</h1>
+            <p>Currently working toward my Ph.D. at Indian Statistical Institute, Kolkata.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My primary research interests lie in natural language generation and
+                deep learning. My current research focuses on the factual consistency
+                and reliability of large language models (LLMs), particularly in the
+                domain of data-to-text generation, where structured data are expressed
+                in natural language.
+            </p>
+            <p>
+                I am also interested in scaling laws and in understanding
+                how computational and data scaling influence the performance and
+                reliability of large language models.
+            </p>
+        </section>
+
+        <section id="news">
+            <h2>Latest News</h2>
+            <div class="grid-list" id="latest-news">
+                <p>Loading news...</p>
+            </div>
+
+            <p class="links">
+                <a href="news.html">More News &rarr;</a>
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="grid-list">
+                <article class="card">
+                    <div class="card-row">
+                        <img src="assets/images/icons/logo-isi-wiki.svg" alt="Indian Statistical Institute"
+                            class="card-thumbnail" loading="lazy">
+                        <div class="card-content">
+                            <h3>Doctor of Philosophy (Ph.D.)</h3>
+                            <p class="meta">2018 – Present</p>
+                            <p>Indian Statistical Institute, Kolkata, India</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-row">
+                        <img src="assets/images/icons/logo-ju-wiki.svg" alt="Jadavpur University" class="card-thumbnail"
+                            loading="lazy">
+                        <div class="card-content">
+                            <h3>Master of Engineering (M.E.) in Computer Science and Engineering</h3>
+                            <p class="meta">2014 – 2016</p>
+                            <p>Jadavpur University, Kolkata, India</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-row">
+                        <img src="assets/images/icons/logo-iiest-wiki.svg"
+                            alt="Indian Institute of Engineering Science and Technology, Shibpur" class="card-thumbnail"
+                            loading="lazy">
+                        <div class="card-content">
+                            <h3>Bachelor of Engineering (B.E.) in Computer Science and Technology</h3>
+                            <p class="meta">2009 – 2013</p>
+                            <p>Indian Institute of Engineering Science and Technology, Shibpur, India</p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Best way to reach me is via email!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span data-current-year>2026</span> Joy Mahapatra. Shameless plug: Built with the help of ChatGPT.</p>
+    </footer>
+</body>
+
+</html>
